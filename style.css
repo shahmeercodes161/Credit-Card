@@ -1,5 +1,5 @@
 .main{
-    background-color: #003169;
+  background: linear-gradient(to bottom, #001B44, #1E90FF);
     width: 400px;
     height: 250px;
     position: relative;
@@ -81,7 +81,7 @@ p{
 }
 
 .main-2{
-    background-color: #003169;
+ background: linear-gradient(to bottom, #001B44, #1E90FF);
     width: 400px;
     height: 250px;
     position: relative;
