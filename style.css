@@ -1,0 +1,126 @@
+.main{
+    background-color: #003169;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.chip{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+}
+
+.number {
+  position: absolute;
+  top: 140px; 
+  left: 20px;
+  display: flex;
+  align-items: flex-start;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
+
+.text-group {
+    display: block; 
+    padding-left: 10px; 
+}
+
+.date-row {
+    display: flex; 
+    justify-content: space-between; 
+    width: 250px;
+}
+
+.master{
+    display: flex;
+   justify-content: space-between;
+   position: absolute;
+   top: 200px;
+   bottom: 10px;
+   left: 80px;
+   right: 20px;
+   width: calc(100%-40px);
+   color:white;
+   font: size 30px;
+ 
+}
+
+ubl-img{
+    top: 15px;
+    position: absolute;
+    align-items: center;
+}
+
+.valid{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding-left: 21px;
+    gap: 35px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+    font-size: 10px;
+}
+
+.main-2{
+    background-color: #003169;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    display: block;
+    padding: 20px;
+}
+
+.black{
+    height: 45px;
+    width:380px ;
+    padding: 0;
+    align-content: center;
+    background-color: black;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.slip{
+    display: flex;
+    flex-direction: column;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
